@@ -29,8 +29,8 @@ export default function HomePage() {
               <Trophy className="w-6 h-6 text-white" />
             </div>
             <div>
-              <span className="text-xl font-bold text-gray-900">OlympicPrep</span>
-              <div className="text-xs text-gray-500">AI-Powered Training</div>
+              <span className="text-xl font-bold text-gray-900">AITHLON</span>
+              <div className="text-xs text-gray-500">AI-Powered Olympic Training</div>
             </div>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
@@ -58,12 +58,12 @@ export default function HomePage() {
             Olimpiyat Hazırlığında
             <span className="bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent">
               {" "}
-              Yapay Zeka Devrimi
+              AITHLON Devrimi
             </span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Matematik, Kimya ve Fizik olimpiyatlarına hazırlanan öğrenciler için AI destekli, kişiselleştirilmiş eğitim
-            platformu. Günlük streak sistemi ve akıllı soru analizi ile başarıya ulaşın.
+            AITHLON - Matematik, Kimya ve Fizik olimpiyatlarına hazırlanan öğrenciler için AI destekli,
+            kişiselleştirilmiş eğitim platformu. Günlük streak sistemi ve akıllı soru analizi ile başarıya ulaşın.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button size="lg" className="text-lg px-8 bg-gradient-to-r from-amber-500 to-orange-600">
@@ -99,9 +99,8 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Proje Nedir?</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              OlympicPrep, olimpiyat matematik, kimya ve fizik sorularını AI ile analiz eden, öğrencilerin seviyesine
-              göre kişiselleştirilmiş sorular üreten ve çözüm sürecinde rehberlik eden yenilikçi bir eğitim
-              platformudur.
+              AITHLON, olimpiyat matematik, kimya ve fizik sorularını AI ile analiz eden, öğrencilerin seviyesine göre
+              kişiselleştirilmiş sorular üreten ve çözüm sürecinde rehberlik eden yenilikçi bir eğitim platformudur.
             </p>
           </div>
 
@@ -421,10 +420,12 @@ export default function HomePage() {
       {/* CTA Section */}
       <section id="demo" className="py-20 px-4 bg-gradient-to-r from-amber-500 to-orange-600">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Olimpiyat Başarısının Geleceği Burada</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+            AITHLON ile Olimpiyat Başarısının Geleceği Burada
+          </h2>
           <p className="text-xl text-amber-100 mb-8 max-w-2xl mx-auto">
-            AI destekli eğitim platformu ile olimpiyat hazırlığında yeni bir dönem başlıyor. Projeyi yakından takip edin
-            ve gelişmeleri kaçırmayın.
+            AITHLON AI destekli eğitim platformu ile olimpiyat hazırlığında yeni bir dönem başlıyor. Projeyi yakından
+            takip edin ve gelişmeleri kaçırmayın.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" className="text-lg px-8">
@@ -452,11 +453,13 @@ export default function HomePage() {
                   <Trophy className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <span className="text-xl font-bold">OlympicPrep</span>
-                  <div className="text-xs text-gray-400">AI-Powered Training</div>
+                  <span className="text-xl font-bold">AITHLON</span>
+                  <div className="text-xs text-gray-400">AI-Powered Olympic Training</div>
                 </div>
               </div>
-              <p className="text-gray-400">Olimpiyat hazırlığında AI teknolojisi ile yeni nesil eğitim platformu.</p>
+              <p className="text-gray-400">
+                AITHLON - Olimpiyat hazırlığında AI teknolojisi ile yeni nesil eğitim platformu.
+              </p>
             </div>
 
             <div>
@@ -491,7 +494,7 @@ export default function HomePage() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 OlympicPrep. Eylül 2024'te sunulacak proje.</p>
+            <p>&copy; 2024 AITHLON. Eylül 2024'te sunulacak proje.</p>
           </div>
         </div>
       </footer>
