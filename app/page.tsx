@@ -16,7 +16,7 @@ import {
   Calculator,
   FlaskConical,
 } from "lucide-react"
-import Link from "next/link"
+import { Navigation } from "@/components/navigation"
 
 export default function HomePage() {
   return (
@@ -33,17 +33,7 @@ export default function HomePage() {
               <div className="text-xs text-gray-500">AI-Powered Olympic Training</div>
             </div>
           </div>
-          <nav className="hidden md:flex items-center space-x-6">
-            <Link href="#features" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Özellikler
-            </Link>
-            <Link href="#benefits" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Faydalar
-            </Link>
-            <Link href="#demo" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Demo
-            </Link>
-          </nav>
+          <Navigation />
           <Button className="bg-gradient-to-r from-amber-500 to-orange-600">Uygulamayı Dene</Button>
         </div>
       </header>
